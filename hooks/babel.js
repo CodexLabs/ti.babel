@@ -21,7 +21,7 @@
 		cli = _cli;
 
 		// Do they want to use babel?
-		if (cli.tiapp.properties['ti.babel'] && cli.tiapp.properties['ti.babel'].value != true) {
+		if (!cli.tiapp || !cli.tiapp.properties || !cli.tiapp.properties['ti.babel'] || cli.tiapp.properties['ti.babel'].value !== true) {
 			return;
 		}
 
