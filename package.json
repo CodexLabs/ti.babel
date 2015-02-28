@@ -1,0 +1,28 @@
+{
+  "name": "ti.babel",
+  "version": "0.0.1",
+  "description": "Use ES6 features in Appcelerator Titanium mobile apps today via Babel translation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dawsontoth/ti.babel.git"
+  },
+  "keywords": [
+    "babel",
+    "appcelerator"
+  ],
+  "author": "Dawson Toth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawsontoth/ti.babel/issues"
+  },
+  "homepage": "https://github.com/dawsontoth/ti.babel",
+  "dependencies": {
+    "babel": "^4.6.1",
+    "babel-core": "^4.6.1",
+    "fs-walk": "0.0.1"
+  }
+}
