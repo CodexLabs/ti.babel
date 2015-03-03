@@ -1,6 +1,6 @@
 # Ti.Babel
 
-Appcelerator CLI plugin for Babel.
+Appcelerator CLI plugin for Babel, allowing you to use ES6 inside of your Titanium apps today.
 
 # Installation
 
